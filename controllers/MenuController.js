@@ -14,7 +14,7 @@ module.exports = class MenuController {
                 ]
             }
         ];
-        this.contact = [];
+        this.contacts = [];
     }
 
     //METHODS
@@ -60,6 +60,10 @@ module.exports = class MenuController {
         const date = new Date();
         console.log(date);
         this.main();
+    }
+
+    getContactCount() {
+        return this.contacts.length
     }
 }
 
