@@ -14,5 +14,11 @@ describe("MenuController", () => {
             expect(this.menu.getContactCount()).toBe(1);
         });
     });
+
+    describe("#remindMe()", () => {
+        it("should print out the motivational message if working", () => {
+            expect(this.menu.remindMe()).toBeDefined();
+        });
+    })
 });
 
