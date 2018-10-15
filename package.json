@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.1.0"
+    "inquirer": "^6.1.0",
+    "pg": "^7.5.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.39.0"
   },
   "devDependencies": {
     "jasmine": "^3.2.0"
